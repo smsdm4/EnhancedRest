@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5049BF42B837392002576CB /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5049BF32B837392002576CB /* SleepCalculator.mlmodel */; };
 		B523A5B62B20A170002707DD /* EnhancedRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523A5B52B20A170002707DD /* EnhancedRestApp.swift */; };
 		B523A5B82B20A170002707DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523A5B72B20A170002707DD /* ContentView.swift */; };
 		B523A5BA2B20A171002707DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B523A5B92B20A171002707DD /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5049BF32B837392002576CB /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		B523A5B22B20A170002707DD /* EnhancedRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhancedRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B523A5B52B20A170002707DD /* EnhancedRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancedRestApp.swift; sourceTree = "<group>"; };
 		B523A5B72B20A170002707DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				B523A5B52B20A170002707DD /* EnhancedRestApp.swift */,
 				B523A5B72B20A170002707DD /* ContentView.swift */,
+				B5049BF32B837392002576CB /* SleepCalculator.mlmodel */,
 				B523A5B92B20A171002707DD /* Assets.xcassets */,
 				B523A5BB2B20A171002707DD /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				B523A5B82B20A170002707DD /* ContentView.swift in Sources */,
 				B523A5B62B20A170002707DD /* EnhancedRestApp.swift in Sources */,
+				B5049BF42B837392002576CB /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,26 +276,30 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnhancedRest/Preview Content\"";
-				DEVELOPMENT_TEAM = F99E8Y4GSR;
+				DEVELOPMENT_TEAM = 7U8Z8MN395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "خواب بهتر";
+				INFOPLIST_KEY_CFBundleDisplayName = "Enhanced Rest";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.msdco.EnhancedRest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdco.enhanced-rest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,26 +311,30 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EnhancedRest/Preview Content\"";
-				DEVELOPMENT_TEAM = F99E8Y4GSR;
+				DEVELOPMENT_TEAM = 7U8Z8MN395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "خواب بهتر";
+				INFOPLIST_KEY_CFBundleDisplayName = "Enhanced Rest";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.msdco.EnhancedRest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msdco.enhanced-rest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
